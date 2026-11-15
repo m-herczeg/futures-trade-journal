@@ -13,7 +13,7 @@ print(f"P&L NQ : {pnl_nq} $")
 pnl_cl = pnl_trade(78.40, 77.90, 1, 1000, -1)
 print(f"P&L CL : {pnl_cl} $")
 
-pnl_perte = pnl_trade(5010, 5008, 1, 50, 1)
+pnl_perte = pnl_trade(5010, 5002, 1, 50, 1)
 print(f"P&L ES : {pnl_perte} $")
 
 if pnl_perte < -300:
